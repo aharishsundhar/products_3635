@@ -1,0 +1,19 @@
+<h2 class="screen-align">ProductAdd</h2>
+<div id="template-iktk" class="row">
+    <div id="template-i9pu" class="cell">
+        <label id="template-ida8" class="label">Name</label>
+        <input id="template-icov" [(ngModel)]="productlist.name" [ngModelOptions]="{standalone: true}"
+        class="input form-control" />
+        <button id="template-imkrz" (click)="GpCreate()" class="button btn btn-primary">Create</button>
+    </div>
+    <div id="template-ieb6" class="cell">
+        <label id="template-i70u" class="label">price</label>
+        <input id="template-inic" [(ngModel)]="productlist.price"
+        [ngModelOptions]="{standalone: true}" class="input form-control" />
+    </div>
+    <div id="template-il7l" class="cell">
+        <label id="template-ix5b" class="label">quantity</label>
+        <input id="template-io0dg" [(ngModel)]="productlist.quantity"
+        [ngModelOptions]="{standalone: true}" class="input form-control" />
+    </div>
+</div>
